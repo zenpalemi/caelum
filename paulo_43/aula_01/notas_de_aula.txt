@@ -1,0 +1,34 @@
+Síntaxe HTML
+
+Existem tags de:
+  RECURSO (aquelas que não precisam fechar)
+  CONTAINER (aquelas que abrem e fecham)
+
+---
+
+<!DOCTYPE html>
+
+The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.
+
+---
+
+Caractere encode (tag meta)
+<meta charset="utf-8">
+
+Como preparar o browser para trabalhar com os caracteres especiais
+
+---
+
+Tornar seu código em componentes pode melhorar o desempenho dependendo da situação, uma vez que você só carregaria o código desejado em cada página.
+
+---
+
+Comm + Shift + D = Duplica a linha
+
+---
+
+tag STRONG dá força (semântica) a uma palavra. Ajuda o robô do google.
+
+---
+
+Fazer exercícios 2.9 e 2.16

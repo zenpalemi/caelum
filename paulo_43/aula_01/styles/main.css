@@ -1,0 +1,9 @@
+body {
+  background-color: cyan;
+}
+
+h1 {
+  text-transform: uppercase;
+  background-color: purple;
+  color: white;
+}
