@@ -1,0 +1,32 @@
+SELETORES CSS
+
+    - Seletor de TAG
+        tag {propriedade: valor}
+
+    - Seletor de Classe
+        .classe {propriedade: valor}
+
+    - Seletor de ID
+        #id {propriedade: valor}
+
+FORÇA DOS SELETORES
+
+    ID > CLASSE > TAG
+
+    == Tabela de Especifidade ==
+    ID = 100
+    CLASS = 10
+    TAG = 1
+
+    NUNCA USAR "!IMPORTANT"
+
+TAMANHO DE FONTE
+
+                    px       %       em
+ tamanho natural    16      100      1
+
+
+ TAG <a> NÃO ACEITA HERANÇA DE OUTRAS PROPRIEDADES
+
+
+Exercícios: 2.20 / 2.22 / 2.26 / 3.7 / 3.10 / 3.12 / 3.14
