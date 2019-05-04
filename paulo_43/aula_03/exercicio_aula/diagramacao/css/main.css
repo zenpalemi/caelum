@@ -10,8 +10,7 @@ header, footer {
 }
 
 main {
-    background-color: cyan;
-    height: 600px;
+    min-height: 600px;
 }
 
 .container {
@@ -65,4 +64,50 @@ nav {
     text-decoration: inherit;
     color: inherit;
     display: inherit;
+}
+
+figure {
+    position: relative;
+}
+
+figure figcaption {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 3em;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    padding: 20px;
+}
+
+[role="content"] {
+    width: 900px;
+    float: left;
+    padding: 30px;
+}
+
+[role="sidebar"] {
+    width: 300px;
+    float: right;
+    padding: 30px;
+}
+
+[role="sidebar"] nav {
+    background-color: transparent;
+}
+
+article {
+    margin: 0 0 20px 0;
+}
+
+article h1 {
+    font-size: 2em;
+}
+
+article p {
+    text-align: justify;
+}
+
+img {
+    display: block;
 }

@@ -1,0 +1,7 @@
+tags novas:
+    <article> = um conjunto de informacao
+    <aside> = acompanha os articles, normalmente 1:1
+    <section> = uma sessao do seu site
+
+exercícios:
+4.7, 4.9 e 4.14
