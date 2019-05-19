@@ -1,0 +1,7 @@
+Javascript
+    1. Armazenamento
+        var chave = valor
+
+        
+    2. Ações
+        comando();

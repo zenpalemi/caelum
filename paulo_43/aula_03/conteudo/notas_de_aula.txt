@@ -4,4 +4,4 @@ tags novas:
     <section> = uma sessao do seu site
 
 exercícios:
-4.7, 4.9 e 4.14
+5.4, 5.5, 5.13, 5.16

@@ -1,0 +1,134 @@
+body {
+    font-family: arial, verdana;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+header, footer {
+    background-color: silver;
+    min-height: 150px;
+}
+
+main {
+    min-height: 600px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    /* background-color: yellow; */
+    background-image: url("../assets/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    text-indent: -9999px;
+    width: 150px;
+    height: 150px;
+}
+
+/* .menu {
+    display: flex;
+} */
+
+nav {
+    background: orange;
+}
+
+.menu {
+    width: 1200px;
+    margin: auto;
+}
+
+.menu li {
+    display: block;
+    width: 200px;
+    float: left;
+    background: orange;
+    text-align: center;
+    line-height: 2;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu li:hover {
+    background: black;
+    color:orange;
+    transition: 0.5s;
+}
+
+.menu li a {
+    text-decoration: inherit;
+    color: inherit;
+    display: inherit;
+}
+
+figure {
+    position: relative;
+}
+
+figure figcaption {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 3em;
+    position: absolute;
+    bottom: 50px;
+    right: 25px;
+    padding: 20px;
+}
+
+[role="content"] {
+    width: 900px;
+    float: left;
+    padding: 30px;
+}
+
+[role="sidebar"] {
+    width: 300px;
+    float: right;
+    padding: 30px;
+}
+
+[role="sidebar"] nav {
+    background-color: transparent;
+}
+
+article {
+    margin: 0 0 20px 0;
+}
+
+article h1 {
+    font-size: 2em;
+}
+
+article p {
+    text-align: justify;
+}
+
+img {
+    display: block;
+}
+
+.bullets a {
+    font-size: 2.5em;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    margin: 0 5px 0 5px;
+}
+
+.bullets {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: none;
+    cursor: default;
+}
+
+.bullets a.active {
+    color: orange;
+}
